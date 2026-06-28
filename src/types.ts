@@ -15,8 +15,16 @@ export interface DocumentMetadata {
   legalReferences: string[];
 }
 
+export interface SimplifiedA2Overview {
+  studentOrCitizenTasks: string[];
+  alertsToTakeCareOf: string[];
+  requiredDocuments: string[];
+  familyReunionInfo: string;
+}
+
 export interface LegalSimplification {
   plainGerman: string;
+  simplifiedA2Overview?: SimplifiedA2Overview;
   difficultTerms: Array<{ term: string; definition: string; contextInDoc: string }>;
 }
 
