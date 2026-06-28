@@ -1,0 +1,1 @@
+{"name":"LexiSimplify","description":"AI-Agentic German Law Simplifier. Upload or paste a German legal document. Multiple AI agents analyze, simplify, verify and explain the document in plain language.","requestFramePermissions":[],"majorCapabilities":["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]}
